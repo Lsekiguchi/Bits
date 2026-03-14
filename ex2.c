@@ -30,6 +30,6 @@ int main() {
     y--;
         }
     printf("%i", y);
-
+    system("pause");
     return 0;
 }

@@ -13,10 +13,11 @@ int main() {
     }
     loop = 0;
     while (loop < num) {
-    resultado = ab[loop]%ab[loop + 1];
+    resultado = (ab[loop + 1] - (ab[loop] % ab[loop + 1])) % ab[loop + 1];
     printf("%i\n", resultado);
     loop++;
     loop++;
     }
+    system("pause");
     return 0;
 }
